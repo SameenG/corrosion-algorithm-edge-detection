@@ -36,5 +36,5 @@
 
  
  
- - [ ] regularize
+ - [ ] regularization
  - [ ] proximal gradient descent
