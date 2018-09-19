@@ -37,4 +37,6 @@
  
  
  - [ ] regularization
+   usage : in classification,
+ 
  - [ ] proximal gradient descent
