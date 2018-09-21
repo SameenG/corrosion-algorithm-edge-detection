@@ -36,7 +36,12 @@
 
  
  
- - [ ] regularization
-   usage : in classification,
- 
+ - [ ] regularization https://en.wikipedia.org/wiki/Regularization_(mathematics)#Generalization
+  - usage : applies to objective functions in ill-posed optimization problems. in classification,
+  - some conceptions: 
+  1. loss function: loss functions representing the price paid for inaccuracy of predictions in classification problems
+  2. hinge loss:https://en.wikipedia.org/wiki/Hinge_loss 
+ - regularization term R(f) is usually added to a loss founction,typically chosen to impose a penalty on the complexity of f.
+   - Tikhonov regularization
+   - Total variation regularization
  - [ ] proximal gradient descent
