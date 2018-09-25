@@ -45,3 +45,4 @@
    - Tikhonov regularization
    - Total variation regularization
  - [ ] proximal gradient descent
+   - www.cs.cmu.edu/~pradeepr/convexopt/Lecture_Slides/prox-grad_2.pdf
