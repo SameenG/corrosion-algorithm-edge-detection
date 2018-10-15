@@ -19,5 +19,22 @@
   
   #### add
   - 2d convolution
-  - FFT 
+  - FFT  (http://blog.jobbole.com/70549/)
   - Remember that a convolution in **real space** is equivalent to a multiplication in **Fourier space** .
+
+## lesson 3 （interpolation）
+
+- np & plt & nd
+- some concepts and basic interpretation: https://www.cambridgeincolour.com/tutorials/image-interpolation.htm
+
+
+### founctions
+- list slices::
+- np.mean/ reshape/ 
+- nd.convolve
+
+### algorithms
+> adaptive : some cannot be used to distort or rotate an image
+> non-adaptive : nearest neighbor, bilinear, spline, sinc etc. The more adjecent pixels they include, the more accurate they can be.
+
+
