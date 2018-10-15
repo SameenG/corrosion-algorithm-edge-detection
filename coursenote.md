@@ -35,6 +35,7 @@
 
 ### algorithms
 > adaptive : some cannot be used to distort or rotate an image
+
 > non-adaptive : nearest neighbor, bilinear, spline, sinc etc. The more adjecent pixels they include, the more accurate they can be.
 
 
