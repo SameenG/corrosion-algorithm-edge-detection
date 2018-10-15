@@ -31,7 +31,7 @@
 ### founctions
 - list slices::
 - np.mean/ reshape/ 
-- nd.convolve
+- nd.convolve/.interpolation.rotate
 
 ### algorithms
 > adaptive : some cannot be used to distort or rotate an image
