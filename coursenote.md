@@ -2,7 +2,7 @@
 
 -  numpy(np) &  matplotlib.pyplot (plt) & scipy.ndimage(nd)
 - structure of an img's numpy array : img [ pixel, pixel, channel ]  
-#### founctions used
+#### functions used
   - plt.imread/imshow/colorbar/plot/grid/legend/titlr/colorbar
   - img.cpoy /max/shape
   - np. zeros /histogram
@@ -13,7 +13,7 @@
   
   - np & nd & plt
   - convolve : f* h
-  #### founctions
+  #### functions
   - np.eye/ zeros_like /fft /real
   - nd.convolve
   
@@ -28,7 +28,7 @@
 - some concepts and basic interpretation: https://www.cambridgeincolour.com/tutorials/image-interpolation.htm
 
 
-### founctions
+### functions
 - list slices::
 - np.mean/ reshape/ 
 - nd.convolve/.interpolation.rotate
@@ -38,4 +38,19 @@
 
 > non-adaptive : nearest neighbor, bilinear, spline, sinc etc. The more adjecent pixels they include, the more accurate they can be.
 
+## lesson 4 (segmentation)
 
+### functions
+- nd.label(label features in an array)/binary_opening(noise reduction)/closing(remove inner dots)/find_objects
+- use of plt.imshow()/plt.hist
+- image.astype()
+
+## lesson 5(wave propagation) 
+
+### points
+> wave propagation :https://en.wikipedia.org/wiki/Wave_propagation
+
+>sum along axis:https://stackoverrun.com/cn/q/11483910
+
+### functions
+np.angle
