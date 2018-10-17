@@ -47,4 +47,10 @@
  - [ ] proximal gradient descent
    - www.cs.cmu.edu/~pradeepr/convexopt/Lecture_Slides/prox-grad_2.pdf
 ### **Image Reconstruction: Algorithms and Analysis**
+#### chapter 1 tomograph
+1. projection
+2. image reconstruction (Filtered Backprojection)
+3. Backprojection
+4. mathematical expression
+
 
