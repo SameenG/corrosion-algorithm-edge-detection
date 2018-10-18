@@ -46,11 +46,12 @@
    - Total variation regularization
  - [ ] proximal gradient descent
    - www.cs.cmu.edu/~pradeepr/convexopt/Lecture_Slides/prox-grad_2.pdf
-### **Image Reconstruction: Algorithms and Analysis**
+### **《医学影像重建》**
 #### chapter 1 tomograph
 1. projection
 2. image reconstruction (Filtered Backprojection)
 3. Backprojection
 4. mathematical expression
-
-
+### chapter 2 
+- Central slice theorem（Fourier Slice Theorem） 【https://blog.csdn.net/Terrenceyuu/article/details/65629938】
+- reconstruct algorithm
