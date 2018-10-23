@@ -55,3 +55,45 @@
 ### chapter 2 
 - Central slice theorem（Fourier Slice Theorem） 【https://blog.csdn.net/Terrenceyuu/article/details/65629938】
 - reconstruct algorithm
+
+---
+
+### *Image reconstruction using simulated annealing in electrical impedance tomography: a new approach*
+SA approach
+#### 1.introduction
+- difference methods and absolute methods
+> difference: two electrical potential data-sets are measured corresponding to two different conductivity distributions 
+> absolute : single data-set / the aim is to estimate the absolute conductivity distribution  *solve the ill-posed,inverse problem*
+
+- fwd and inverse problem
+> fwd : FDM
+
+> inverse : minimizes the difference between measured and calculated potentials by the forward problem *requires a competent regularization/optimization method * 
+
+### **generic algorithm and simulated annealing method(SA)**
+- The choice of the **cooling rate** and **the new candidate solution** are the most important decisions in a SA algorithm
+
+### 2. fwd problem
+- model the potential:  **∇ (σ∇u) =0**
+- boundary condition(BC) : Neumann BC (know the derivative) and Dirichlet BC(potential at the boundary is known) 
+[ ] **detail calculation remain to be read**
+
+### 3. inverse problem
+> inverse problems are formulated as optimization problems with constraints given by: square(min(A(u) − f)) where A(u) is the forward problem solution and f are empirical data.__Tikhonov regularization__ is commonly added. Other regularized methods are mentioned.
+
+### 4. SA
+- new distributions must be sought randomly and then find the one that **decrease the objective function value** (increasing one can be accepted depending on P __Metropolis criterion__ )
+
+#### 4.1 old sa approach
+- impose restrictions to get new candidate points (computationally expensive: step matrix(different directions) , fwd problems)
+
+### proposed sa approach
+- define a step delta = Dmxn* alpha
+- regularization:low-pass Gaussian filter to smooth the Dmxn
+> __expression: σ(k+1)= σ(k)+ α((LDmxn) ◦ σ(k))__
+> modified stepsize and parameters used for it
+ 
+### procedure :initialize(parameters)--> σ(k+1)-->accept the σ(k+1) matrix or not according to SA -->iteration
+
+### problems and disscussions
+
